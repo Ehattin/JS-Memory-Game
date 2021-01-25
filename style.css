@@ -1,0 +1,43 @@
+html {
+  background-image: linear-gradient(to right bottom, lightblue, teal,lightblue,teal,lightblue);
+  background-size: 100%;
+}
+.top{
+  width:auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-block-end: 0.5%;
+  padding-right: 24%;
+  padding-left: 24%;
+  position:relative;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 500px;
+  margin: auto;
+  
+}
+h3{
+  margin: auto;
+  color: black;
+  text-align: left;
+  text-shadow: 2px 2px 5px red;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button{
+  text-shadow: 2px 2px 5px red;
+  transition-duration: 0.4s;
+  border-radius: 12px;
+  text-emphasis: bold;
+  margin: auto;
+  text-align: left;
+  color: black;
+  background-image: linear-gradient( lightblue, teal,lightblue,teal,lightblue);
+  font-family: cursive;
+}
+button:hover {
+  color: white;
+}
